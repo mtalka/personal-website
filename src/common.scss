@@ -1,0 +1,136 @@
+$bootstrap-blue: #007BFF;
+$bootstrap-yellow: #FFC107;
+$bootstrap-red: #DC3545;
+$bootstrap-green: #28A745;
+$bootstrap-lightgrey: #6C757D;
+$bootstrap-darkgrey: #343A40;
+$bootstrap-teal: #17A2B8;
+
+$breakpoints: (phone: 640px, 
+               tablet: 768px, 
+               desktop: 1024px) !default;
+
+.content-holder {
+  background-color: #FEFEFE;
+  min-width: 700px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+@media (max-width: 767px) {
+  .content-holder {
+    min-width: 400px;
+  }
+}
+
+.title-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  .title-hashtag {
+    color: $bootstrap-yellow;
+    margin-right: 1rem;
+  }
+
+  .title-actual {
+    color: $bootstrap-teal;
+    margin-right: 1rem;
+  }
+
+  .title-comment {
+    color: $bootstrap-green;
+  }
+
+  .drag-symbol {
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
+
+    width: 2rem;
+    fill: $bootstrap-lightgrey;
+    opacity: .1;
+  }
+}
+
+.about-content {
+  color: $bootstrap-lightgrey;
+  margin: 1rem 1rem 1rem 1.5rem;
+}
+
+//LINK-LIST
+
+.link-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  .link {
+    margin-right: 1rem;
+
+    a:link a:visited {
+      color: $bootstrap-blue;
+    }
+    a:hover {
+      color: $bootstrap-red;
+      text-decoration: none;
+    }
+    a:active {
+      opacity: 0.5;
+    }
+
+    color: $bootstrap-blue;
+  }
+}
+
+//DRAG STufF
+
+.draggable-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (min-width: 767px) {
+  .draggable-list {
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 1500px;
+    width: 50%;
+  }
+}
+
+//EXPERIENCE LIST
+
+.exp {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  .exp-title {
+    color: $bootstrap-darkgrey;
+
+    .asterisk {
+      color: $bootstrap-red;
+    }
+  }
+  .exp-time {
+    margin-left: 1.15rem;
+  }
+
+  .exp-content {
+    margin-left: 1.15rem;
+    color: $bootstrap-lightgrey;
+  }
+}
+
+//BOOTSTRAP OVERRIDE
+.card {
+  margin: 15px 15px 15px 15px;
+  border: 0 !important;
+  box-shadow: 10px 10px 5px -10px rgba(108,117,125,0.15);
+}
