@@ -4,7 +4,8 @@ import PersonalCard from "./PersonalCard";
 import * as dragula from "react-dragula";
 import { ExperienceType } from "../types";
 import ExpList from "./ExpList"
-
+// eslint-disable-next-line
+import styles from 'dragula/dist/dragula.css';
 
 export class DraggableSection extends React.Component {
 
