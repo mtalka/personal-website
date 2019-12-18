@@ -9,7 +9,6 @@ import styles from 'dragula/dist/dragula.css';
 
 export class DraggableSection extends React.Component {
 
-
     render() {
         return (
             <div className="draggable-list">

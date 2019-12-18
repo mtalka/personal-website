@@ -93,6 +93,18 @@ $breakpoints: (phone: 640px,
   display: flex;
   flex-direction: column;
   width: 100%;
+
+  .draggablecontainer {
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+  }
+
+  .draggablecontainer:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+  }
 }
 
 @media (min-width: 767px) {
