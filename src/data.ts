@@ -1,6 +1,6 @@
 import { Experience, ExperienceType } from "./types";
 
-export const description: string = "Welcome, weary traveler, to my humble webpage. My name is Markus Talka, I work as a software developer and in many other roles in the software industry. I have also managed to amass a fair amount of free-time activities, many of which revolve around my lifelong computer hobby. I reside in Helsinki, Finland. Feel free to be in touch, you can find my contact links on the bottom of the page."
+export const description: string = "Welcome, weary traveler, to my humble website. My name is Markus Talka, I work as a software developer and in many other roles in the software industry. I have also managed to amass a fair amount of free-time activities, many of which revolve around my lifelong computer hobby. I reside in Helsinki, Finland. Feel free to be in touch, you can find my contact links on the bottom of the page."
 
 export const xpData: Experience[] = [
     {
