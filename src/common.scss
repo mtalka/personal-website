@@ -99,21 +99,17 @@ $breakpoints: (phone: 640px,
     cursor: -moz-grab;
     cursor: -webkit-grab;
   }
-
-  .draggablecontainer:active {
-    cursor: grabbing;
-    cursor: -moz-grabbing;
-    cursor: -webkit-grabbing;
-  }
 }
 
-@media (min-width: 767px) {
-  .draggable-list {
-    display: flex;
-    flex-flow: column wrap;
-    max-height: 1500px;
-    width: 50%;
-  }
+.drag-lists {
+  display: flex;
+  flex-direction: row;
+}
+
+.gu-unselectable {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
 }
 
 //EXPERIENCE LIST
