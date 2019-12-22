@@ -140,5 +140,28 @@ $breakpoints: (phone: 640px,
 .card {
   margin: 15px 15px 15px 15px;
   border: 0 !important;
-  box-shadow: 10px 10px 5px -10px rgba(108,117,125,0.15);
+  box-shadow: 10px 10px 5px -10px rgba(108, 117, 125, 0.15);
+}
+
+@media (prefers-color-scheme: dark) {
+  .container-fluid {
+    background-color: #000;
+  }
+
+  .content-holder {
+    background-color: #000;
+  }
+
+  .about-content {
+    color: #c4c4c4;
+  }
+
+  .exp-title {
+    color: #c4c4c4;
+  }
+
+  .card {
+    background-color: #000;
+    box-shadow: 10px 10px 5px -10px rgba(196, 196, 196, 0.5);
+  }
 }
