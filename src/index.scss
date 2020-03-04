@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  font-family: "Consolas", "Roboto", "Inconsolata" !important;
+  font-family: "Inconsolata", monospace !important;
 }
 
 body {
@@ -10,10 +10,5 @@ body {
   min-height: 100%;
   position: relative;
   font-size: 0.75rem !important;
-  font-family: "Consolas", "Roboto", "Inconsolata" !important;
-}
-
-@font-face {
-  font-family: "Consolas", "Roboto", "Inconsolata" !important;
-  src: local("Consolas"), url('https://themes.googleusercontent.com/font?kit=tU9YDI746eMeg42M7b80TPesZW2xOQ-xsNqO47m55DA') format('woff');
+  font-family: "Inconsolata", monospace !important;
 }
