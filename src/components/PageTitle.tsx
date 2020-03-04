@@ -9,7 +9,7 @@ function PageTitle(props: any) {
                 <div className="title-text">
                   <span className="title-hashtag"># </span>
                   <span className="title-actual">Markus Talka </span>
-                  <span className="title-comment">// software developer</span>
+                  <span className="title-comment">// software developer &amp; software industry professional</span>
                 </div>
               </Card.Body>
             </Card>
