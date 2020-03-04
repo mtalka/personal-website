@@ -118,11 +118,6 @@ $breakpoints: (phone: 640px,
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
-  cursor: pointer;
-
-  &:hover {
-    opacity: .75;
-  }
 
   .exp-title {
     color: $bootstrap-darkgrey;
@@ -141,8 +136,29 @@ $breakpoints: (phone: 640px,
   }
 }
 
+.exp-hover {
+  cursor: pointer;
+
+  &:hover {
+    opacity: .75;
+    color: $bootstrap-red !important;
+
+    .exp-title {
+    color: $bootstrap-red !important;
+    }
+
+    .exp-content {
+    color: $bootstrap-red !important;
+    }
+  }
+  }
+
 .modal-title {
   font-weight: 600;
+}
+
+.modal-body {
+  color: $bootstrap-lightgrey;
 }
 
 //BOOTSTRAP OVERRIDE

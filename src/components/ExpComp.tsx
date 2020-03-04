@@ -38,7 +38,7 @@ function ExpComp(props: any) {
 
     return (
         <>
-            <div className="exp" onClick={handleShow}>
+            <div className={(props.type === ExperienceType.Work || props.type === ExperienceType.School) ? 'exp exp-hover' : 'exp'} onClick={handleShow}>
                 <div className="exp-title">
                     <span className="asterisk">* </span><span>{props.title}</span>
                 </div>

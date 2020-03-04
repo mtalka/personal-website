@@ -9,10 +9,7 @@ export const xpData: Experience[] = [
     title: "Municipality of Lieto",
     time: "03/2012 - 06/2012",
     content: "Intern",
-    additionalContent: `Internship in the data administration of the municipal office of Lieto in Southwestern Finland.
-My duties in this position included:
--IT end-user support
--Software installations`,
+    additionalContent: "Internship in the data administration of the municipal office of Lieto in Southwestern Finland.\nMy duties in this position included:\n-IT end-user support\n-Software installations",
     type: ExperienceType.Work
   },
   {
@@ -31,7 +28,7 @@ My duties included:
     title: "Wärtsilä Oyj",
     time: "05/2014 - 03/2019",
     content: "Solution Expert PDM/PLM",
-    additionalContent: `PDM/PLM related duties at Wärtsilä Information Management.<br /><br />
+    additionalContent: `PDM/PLM related duties at Wärtsilä Information Management.
 
 I work in the Engineering Services team in Wärtsilä's Information Management. Our team provides Wärtsilä engineers with services such as PDM, CAD, reporting tools and product configurators. In my position I am working mainly in project delivery management to enhance the core platforms.
 
