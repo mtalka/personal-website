@@ -66,7 +66,7 @@ $breakpoints: (phone: 640px,
 .link-list {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 
   .link {
@@ -141,6 +141,10 @@ $breakpoints: (phone: 640px,
   margin: 15px 15px 15px 15px;
   border: 0 !important;
   box-shadow: 10px 10px 5px -10px rgba(108, 117, 125, 0.15);
+}
+
+.card-body {
+  padding: .5rem !important;
 }
 
 // @media (prefers-color-scheme: dark) {

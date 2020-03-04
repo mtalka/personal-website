@@ -1,14 +1,14 @@
 import React from "react";
 import '../common.scss';
 import { Card } from "react-bootstrap";
-import { ReactComponent as DragSymbol } from '../drag-icon.svg';
+// import { ReactComponent as DragSymbol } from '../drag-icon.svg';
 
 function PersonalCard(props: any) {
-    let drag: any;
+    // let drag: any;
 
-    if (props.isDraggable) {
-        drag = <DragSymbol className="drag-symbol" />
-    }
+    // if (props.isDraggable) {
+    //     drag = <DragSymbol className="drag-symbol" />
+    // }
 
     return (
         <div className="card-personalized">
@@ -17,7 +17,7 @@ function PersonalCard(props: any) {
                     <div className="title-text">
                         <span className="title-hashtag"># </span>
                         <span className="title-actual">{props.title}</span>
-                        {drag}
+                        {/* {drag} */}
                     </div>
                     <div className="about-content">
                         {props.content}
