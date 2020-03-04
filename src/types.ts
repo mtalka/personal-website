@@ -3,6 +3,7 @@ export type Experience = {
     title: string;
     time?: string;
     content?: string;
+    additionalContent?: string;
     type: ExperienceType;
 }
 

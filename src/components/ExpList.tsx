@@ -13,7 +13,7 @@ function ExpList(props: any) {
     return (
         <>
             {filteredData.map((d: any) =>
-                <ExpComp key={d.id} title={d.title} time={d.time} content={d.content}></ExpComp>
+                <ExpComp key={d.id} type={d.type} title={d.title} time={d.time} content={d.content} addContent={d.additionalContent}></ExpComp>
             )}
         </>
     )

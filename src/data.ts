@@ -9,6 +9,10 @@ export const xpData: Experience[] = [
     title: "Municipality of Lieto",
     time: "03/2012 - 06/2012",
     content: "Intern",
+    additionalContent: `Internship in the data administration of the municipal office of Lieto in Southwestern Finland.
+My duties in this position included:
+-IT end-user support
+-Software installations`,
     type: ExperienceType.Work
   },
   {
@@ -16,6 +20,10 @@ export const xpData: Experience[] = [
     title: "ICT-Portti",
     time: "08/2013 - 11/2013",
     content: "Intern",
+    additionalContent: `Internship in the ICT-Portti project cluster in Turku.
+My duties included:
+-Web design (HTML5, jQuery)
+-Graphic design`,
     type: ExperienceType.Work
   },
   {
@@ -23,6 +31,26 @@ export const xpData: Experience[] = [
     title: "Wärtsilä Oyj",
     time: "05/2014 - 03/2019",
     content: "Solution Expert PDM/PLM",
+    additionalContent: `PDM/PLM related duties at Wärtsilä Information Management.<br /><br />
+
+I work in the Engineering Services team in Wärtsilä's Information Management. Our team provides Wärtsilä engineers with services such as PDM, CAD, reporting tools and product configurators. In my position I am working mainly in project delivery management to enhance the core platforms.
+
+I utilize my certified knowledge of IT Service Management to work with vendors and internal partners around the world to deliver quality software solutions, that enable better use of data, more efficient way of working and better integration between platforms. I also work in close cooperation with offshore teams to ensure on my part the operational integrity of the core platforms for which our team provides services.
+
+My duties as a Solution Expert PDM/PLM include:
+-Working as project track lead in various software solution delivery projects
+-Utilizing agile methods in project delivery
+-Stakeholder communication
+-Creating solution proposals for enhancement requests
+-Managing ICT vendors and external partners
+-Integration and System testing
+
+Tools that I am working with include but are not limited to:
+-Teamcenter (Suite)
+-SAP ERP
+-NX CAD
+-ServiceNow Scrum tool
+-OnTime Project management suite`,
     type: ExperienceType.Work
   },
   {
@@ -30,6 +58,15 @@ export const xpData: Experience[] = [
     title: "Ecraft Etima Oy",
     time: "04/2019 - ",
     content: "Software Developer",
+    additionalContent: `Working as a software developer in a development team.
+
+Duties include but are not limited to
+- Programming progressive web applications in all stack layers, emphasis on front-end
+- Participating in project scope definition
+- Actively participating in customer interaction
+- Utilizing agile methods in project / development work execution
+- Etc.
+`,
     type: ExperienceType.Work
   },
   {
@@ -37,6 +74,7 @@ export const xpData: Experience[] = [
     title: "Lieto Upper Secondary",
     time: "08/2005 - 12/2008",
     content: "Intern",
+    additionalContent: "Matriculation exam",
     type: ExperienceType.School
   },
   {
@@ -44,6 +82,7 @@ export const xpData: Experience[] = [
     title: "Rangsit University Bangkok",
     time: "08/2012 - 12/2012",
     content: "Intern",
+    additionalContent: "Attending and contributing to the exchange program at Rangsit University International College in Bangkok, Thailand.",
     type: ExperienceType.School
   },
   {
@@ -51,6 +90,19 @@ export const xpData: Experience[] = [
     title: "Turku University of Applied Sciences",
     time: "08/2010 - 06/2014",
     content: "Bachelor of Engineering (IT)",
+    additionalContent: `240 ECTS credits, engineering studies in the field of Information Technology.
+Field of specialization in Multimedia technology.
+
+Courses taken include but are not limited to:
+-Usability and user interface design
+-IT product development
+-Software development (Basics of programming (Java), Logical structures, Database basics, Algorithms)
+-Augmented reality applications
+-CISCO CCNA 1 & 2, Network Fundamentals, Routing Protocols and Concepts
+-Linux web servers
+-Relational databases
+-Open source software
+-Human-Computer Interaction`,
     type: ExperienceType.School
   },
   {
@@ -58,6 +110,17 @@ export const xpData: Experience[] = [
     title: "University of Turku",
     time: "08/2018 -",
     content: "Software Technology (MSc)",
+    additionalContent: `Software Technology, DI / MSc (Tech)
+
+Courses consist of:
+-Software Design and Architecture
+-Advanced Programming Techniques
+-Practical Software Quality Management, Testing and Estimation
+-Software Development and Software Security
+
+-Privacy and Security for Software Systems
+-Lean Platform Business Design
+among others.`,
     type: ExperienceType.School
   },
   {
